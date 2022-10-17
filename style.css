@@ -1,0 +1,27 @@
+section {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(16, 16fr);
+    grid-template-rows: repeat(16, 16fr);
+    width: 800px;
+    gap: 5px;
+    border: solid 5px black;
+}
+
+div {
+    height: 45px;
+    width: 45px;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+div:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.draw {
+    background-color: black;
+}
+
+#erase {
+    margin-top: 5px;
+}
